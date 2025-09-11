@@ -107,7 +107,7 @@ public final class PaperBootstrap {
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "www.visa.com.hk");
-        envVars.put("CFPORT", "");
+        envVars.put("CFPORT", "443");
         envVars.put("NAME", "Dracobyte");
         
         for (String var : ALL_ENV_VARS) {
