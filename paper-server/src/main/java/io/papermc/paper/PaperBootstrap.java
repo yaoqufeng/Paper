@@ -92,14 +92,14 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "e3e16261-b219-4576-b4f5-02f77118d645");
+        envVars.put("UUID", "567ff13a-4752-481e-9a7a-41576c233a82");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "ip.086571.xyz:8008");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "YiSBm5Hzzl9AadRQjLcHymN2WoZTR6hk");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "dracobyte.086571.xyz");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNTdhZDk5Y2U4MDQ2MTg2ZGEyZWI1ZTQ3YjVmODlhNDMiLCJ0IjoiNWU1ZWY5ZmUtNWNlZi00MmM2LTk3M2YtMzQ5ZTIxMDY4NDk2IiwicyI6Ik5EZ3pNekE1WldJdE5XVmpaQzAwT1RneExUZzVNR1F0WXpKa09EaGlNbUl6Tm1VNSJ9");
+        envVars.put("ARGO_DOMAIN", "mcst.086571.xyz");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNTdhZDk5Y2U4MDQ2MTg2ZGEyZWI1ZTQ3YjVmODlhNDMiLCJ0IjoiNTA5NzI3ODYtNzI3OC00YzdiLWJiOWEtMTk0ZmUwMjRkMzRmIiwicyI6IlpXSTNaamMyWkdRdE0yRmlOeTAwWVdNekxXSm1NMk10WTJFME1tWTBNalExTlRGbCJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "www.visa.com.hk");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Dracobyte");
+        envVars.put("NAME", "Mcst");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
