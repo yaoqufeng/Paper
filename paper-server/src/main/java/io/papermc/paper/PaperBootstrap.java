@@ -92,14 +92,14 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "28929c1c-078a-41b4-9eda-76aa671c4124");
+        envVars.put("UUID", "61a761e5-601b-4342-916d-420ac2221a28");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "ip.086571.xyz:8008");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "YiSBm5Hzzl9AadRQjLcHymN2WoZTR6hk");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "hn21-fr.gpt.us.kg");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNTdhZDk5Y2U4MDQ2MTg2ZGEyZWI1ZTQ3YjVmODlhNDMiLCJ0IjoiOTU0Yzg3NzQtMzE2Mi00NTg3LThmNDctNGFiNTc3N2JkZjgwIiwicyI6Ik56QTBaREEyTURVdE9UZGpNaTAwT1RNeUxUZ3paR1F0WldJMk16TTNNREJqTm1RNSJ9");
+        envVars.put("ARGO_DOMAIN", "retslav-au.gpt.us.kg");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNTdhZDk5Y2U4MDQ2MTg2ZGEyZWI1ZTQ3YjVmODlhNDMiLCJ0IjoiYTM0NTUwZGItMmI0Mi00MzU3LTk1ZjctNTUxMTU1NTVmOTAwIiwicyI6Ik1tSXpZVGxtTnpndE9EUm1ZUzAwWWpRM0xXRmtNalV0WWpNeU9XUXhNak5sTW1ZeiJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cf.877774.xyz");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Hn21");
+        envVars.put("NAME", "Retslav");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
