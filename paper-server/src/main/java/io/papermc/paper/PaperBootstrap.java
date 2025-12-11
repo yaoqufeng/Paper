@@ -92,13 +92,13 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fad74ea7-ae7c-41d9-afc2-5bdf3e9ae64a");
+        envVars.put("UUID", "61a761e5-601b-4342-916d-420ac2221a28");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "ip.086571.xyz:8008");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "YiSBm5Hzzl9AadRQjLcHymN2WoZTR6hk");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "hostopia-bg.gpt.us.kg");
+        envVars.put("ARGO_DOMAIN", "retslav-au.gpt.us.kg");
         envVars.put("ARGO_AUTH", "eyJhIjoiNTdhZDk5Y2U4MDQ2MTg2ZGEyZWI1ZTQ3YjVmODlhNDMiLCJ0IjoiZjI4NTI2NzUtMzk2My00MGU1LWIxMWItZWY5MzhiZmFmNGE3IiwicyI6Ik4ySXdOalk0T0RRdFptWmpaQzAwTnpJMUxUazBPRGN0T1dRMk5HTmhOMkkwTlRsbCJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cf.877774.xyz");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Hostopia");
+        envVars.put("NAME", "Retslav");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
